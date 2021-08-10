@@ -1,0 +1,12 @@
+@import "@/styles/common.scss";
+
+.forgot-password-wrapper .forgot-password-form-wrapper {
+  .guide {
+    margin-bottom: 16px;
+    text-align: center;
+  }
+  .ant-btn {
+    @include primary-rounded-button;
+    margin-top: 10px;
+  }
+}

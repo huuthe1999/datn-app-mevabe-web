@@ -1,0 +1,17 @@
+@import "@/styles/common.scss";
+
+.register-wrapper .form-content-wrapper {
+  display: grid;
+  row-gap: 5px;
+  .ant-form-item {
+    margin-bottom: 0;
+    &-control {
+      @include input-with-message;
+    }
+    &-explain-error {
+      > div:nth-child(2) {
+        display: none;
+      }
+    }
+  }
+}

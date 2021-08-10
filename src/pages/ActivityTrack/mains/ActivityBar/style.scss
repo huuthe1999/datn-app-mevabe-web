@@ -1,0 +1,11 @@
+@import "@/styles/common.scss";
+.activity-track-wrapper .activity-bar-wrapper {
+  @include rounded-card(#fff, 10px);
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  top: 84px;
+  left: 20px;
+  height: calc(100vh - 104px);
+}

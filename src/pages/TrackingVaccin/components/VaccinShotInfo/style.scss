@@ -1,0 +1,13 @@
+.vaccin-modal-wrapper .vaccin-shot-info-wrapper {
+  h3 {
+    color: var(--primary-color);
+  }
+  > div {
+    border-bottom: 1px solid #c4c4c4;
+    margin-bottom: 10px;
+    padding-bottom: 2px;
+    p {
+      margin-bottom: 0;
+    }
+  }
+}

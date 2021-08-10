@@ -1,0 +1,20 @@
+@import "@/styles/common.scss";
+.wean-note-modal-wrapper {
+  .ant-modal-body {
+    max-height: 75vh;
+    overflow-y: auto;
+    @include scrollbar-style;
+    .wean-note-modal-wrapper-inner {
+      .ant-picker,
+      .ant-input-number {
+        width: 100%;
+      }
+
+      .form-flex {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        column-gap: 20px;
+      }
+    }
+  }
+}

@@ -1,0 +1,23 @@
+@import "@/styles/common.scss";
+
+.vaccin-modal-wrapper {
+  .ant-modal-body {
+    @include scrollbar-style;
+    overflow-y: auto;
+    max-height: 80vh;
+    .vaccin-modal-wrapper-inner {
+      .ant-picker,
+      .ant-input-number {
+        width: 100%;
+      }
+    }
+  }
+  .ant-modal-title {
+    .ant-skeleton-content {
+      vertical-align: middle;
+    }
+    .ant-skeleton-title {
+      margin: 2px auto;
+    }
+  }
+}

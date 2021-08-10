@@ -1,0 +1,11 @@
+@import "@/styles/common.scss";
+
+.navbar-wrapper .login-button-wrapper {
+  text-align: right;
+  .ant-btn {
+    @include primary-rounded-button;
+  }
+  @media only screen and (max-width: 600px) {
+    display: none;
+  }
+}

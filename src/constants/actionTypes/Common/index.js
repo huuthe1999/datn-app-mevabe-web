@@ -1,0 +1,5 @@
+const COMMON_ACTIONS = {
+  RESET_PAGE_REDUCER: "RESET_PAGE_REDUCER",
+};
+
+export default COMMON_ACTIONS;

@@ -1,0 +1,41 @@
+.faq-wrapper .post-interact-wrapper {
+  display: flex;
+  justify-content: flex-end;
+  padding: 5px 0;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  &-inner {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    column-gap: 40px;
+    font-size: 16px;
+    .ant-btn {
+      width: 100%;
+    }
+    > div {
+      display: grid;
+      grid-template-columns: 1fr auto;
+      align-items: center;
+      column-gap: 5px;
+      font-weight: bold;
+      .anticon {
+        font-size: 20px;
+      }
+    }
+    .up-vote {
+      .anticon {
+        color: #87d068;
+      }
+    }
+    .down-vote {
+      .anticon {
+        color: #f50;
+      }
+    }
+    .comments {
+      .anticon {
+        color: var(--primary-color);
+      }
+    }
+  }
+}

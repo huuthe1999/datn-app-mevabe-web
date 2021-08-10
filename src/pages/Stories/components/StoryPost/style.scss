@@ -1,0 +1,10 @@
+@import "@/styles/common.scss";
+
+.stories-wrapper .story-post-wrapper {
+  @include rounded-card(#fcfcfc, 10px);
+  display: grid;
+  row-gap: 5px;
+  padding: 15px;
+  margin: 20px 0;
+  padding-bottom: 0;
+}

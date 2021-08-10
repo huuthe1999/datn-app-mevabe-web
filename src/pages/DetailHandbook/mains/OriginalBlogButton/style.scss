@@ -1,0 +1,10 @@
+@import "@/styles/common.scss";
+
+.detail-handbook-wrapper .original-blog-button-wrapper {
+  grid-column: 1;
+  grid-row: 3;
+  text-align: right;
+  .ant-btn {
+    @include primary-rounded-button;
+  }
+}

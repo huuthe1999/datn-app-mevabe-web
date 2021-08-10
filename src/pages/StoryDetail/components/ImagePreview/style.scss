@@ -1,0 +1,21 @@
+.story-detail-wrapper .image-preview-wrapper {
+  display: inline-block;
+  margin-right: 5px;
+
+  img {
+    max-width: 100px;
+    width: auto;
+    height: auto;
+    max-height: 80px;
+  }
+
+  .image-preview-mask {
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    font-size: 20px;
+  }
+  .anticon {
+    font-size: 14px;
+  }
+}

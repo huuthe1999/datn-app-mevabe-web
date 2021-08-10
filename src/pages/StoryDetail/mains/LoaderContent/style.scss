@@ -1,0 +1,25 @@
+.story-detail-wrapper .loader-content-wrapper {
+  display: grid;
+  &.hasImage {
+    grid-template-columns: 6fr 4fr;
+  }
+  column-gap: 20px;
+  .image-loader {
+    width: 600px;
+    height: 85vh;
+  }
+  .right {
+    display: grid;
+    width: 400px;
+    height: 85vh;
+    .button-loader {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      column-gap: 1px;
+      .ant-skeleton-button {
+        border-radius: 10px;
+        width: 100%;
+      }
+    }
+  }
+}

@@ -1,0 +1,7 @@
+@import "@/styles/common.scss";
+
+.faq-wrapper .faq-header-wrapper {
+  .ant-btn {
+    @include primary-rounded-button;
+  }
+}

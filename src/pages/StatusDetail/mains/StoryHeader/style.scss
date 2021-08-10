@@ -1,0 +1,36 @@
+.status-detail-wrapper .story-header-wrapper {
+  display: grid;
+  grid-template-columns: 90px auto min-content;
+  @media only screen and (max-width: 600px) {
+    grid-template-columns: 75px auto min-content;
+  }
+  column-gap: 10px;
+  align-items: center;
+  .name {
+    font-weight: bold;
+    font-size: 16px;
+    @media only screen and (max-width: 600px) {
+      font-size: 14px;
+    }
+  }
+  .avatar {
+    display: flex;
+    align-items: center;
+    &-user {
+      @media only screen and (max-width: 600px) {
+        width: 40px !important;
+        height: 40px !important;
+        line-height: 40px !important;
+        font-size: 18px !important;
+      }
+    }
+    &-child {
+      @media only screen and (max-width: 600px) {
+        width: 35px !important;
+        height: 35px !important;
+        line-height: 35px !important;
+        font-size: 18px !important;
+      }
+    }
+  }
+}

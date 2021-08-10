@@ -1,0 +1,17 @@
+.status-detail-wrapper .loader-content-wrapper {
+  display: grid;
+  row-gap: 5px;
+  .image-loader {
+    width: 600px;
+    height: 70vh;
+  }
+  .button-loader {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 1px;
+    .ant-skeleton-button {
+      border-radius: 10px;
+      width: 100%;
+    }
+  }
+}

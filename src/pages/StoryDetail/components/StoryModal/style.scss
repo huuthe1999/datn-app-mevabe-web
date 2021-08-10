@@ -1,0 +1,18 @@
+.story-modal-wrapper {
+  form > span {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .upload-wrapper-inner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .ant-upload-btn {
+    padding: 5px !important;
+    .anticon {
+      margin-left: 5px;
+      font-size: 20px;
+    }
+  }
+}

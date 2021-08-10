@@ -1,0 +1,26 @@
+@import "@/styles/common.scss";
+
+.tracking-milk-wrapper .grow-note-chart-wrapper {
+  @include rounded-card(#fff, 15px);
+  padding: 20px;
+  h3 {
+    text-align: center;
+    color: var(--primary-color);
+  }
+  &-inner {
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    > * {
+      width: 100%;
+    }
+  }
+  .chart-type {
+    text-align: center;
+    .ant-radio-button-wrapper {
+      width: 150px;
+    }
+  }
+}

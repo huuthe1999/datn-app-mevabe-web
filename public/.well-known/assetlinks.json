@@ -1,0 +1,29 @@
+[
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.datn.mevabe",
+      "sha256_cert_fingerprints": [
+        "B6:B4:22:77:92:A5:B4:81:A0:1D:7B:66:88:6B:42:90:32:AC:E0:2B:8B:38:AD:AA:3F:64:0A:78:45:D4:A5:25"
+      ]
+    }
+  },
+  {
+    "relation": ["delegate_permission/common.get_login_creds"],
+    "target": {
+      "namespace": "web",
+      "site": "https://mevabe.de.r.appspot.com"
+    }
+  },
+  {
+    "relation": ["delegate_permission/common.get_login_creds"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.datn.mevabe",
+      "sha256_cert_fingerprints": [
+        "B6:B4:22:77:92:A5:B4:81:A0:1D:7B:66:88:6B:42:90:32:AC:E0:2B:8B:38:AD:AA:3F:64:0A:78:45:D4:A5:25"
+      ]
+    }
+  }
+]

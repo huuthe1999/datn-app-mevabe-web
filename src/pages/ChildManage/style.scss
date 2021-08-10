@@ -1,0 +1,16 @@
+@import "@/styles/common.scss";
+
+.child-manage-wrapper {
+  @include rounded-card(#fff, 15px);
+  padding: 10px;
+  width: 700px !important;
+  display: flex;
+  flex-direction: column;
+  > * + * {
+    margin-top: 20px;
+  }
+  .button {
+    display: flex;
+    justify-content: space-between;
+  }
+}

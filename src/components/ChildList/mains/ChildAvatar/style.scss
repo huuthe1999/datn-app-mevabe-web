@@ -1,0 +1,41 @@
+.child-list-wrapper .child-avatar-wrapper {
+  display: none;
+  &.isOpen,
+  &.isCurrent {
+    display: flex;
+  }
+  flex-direction: row-reverse;
+  align-items: center;
+  cursor: pointer;
+  animation: fadein 1s;
+  transition: all 0.25s;
+  &:hover {
+    transform: scale(1.15);
+  }
+
+  .badge {
+    background-color: #fff;
+    margin-right: -5px;
+    padding: 0px 12px 0px 10px;
+    text-transform: capitalize;
+    transition: all 0.3s;
+    height: 30px;
+    line-height: 30px;
+  }
+
+  &.isCurrent {
+    .badge {
+      background-color: var(--primary-color);
+      color: #fff;
+    }
+  }
+
+  @keyframes fadein {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+}

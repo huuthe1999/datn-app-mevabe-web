@@ -1,0 +1,6 @@
+@import "@/styles/common.scss";
+
+.profile-wrapper .side-menu-menu-wrapper {
+  @include scrollbar-style;
+  overflow-y: auto;
+}

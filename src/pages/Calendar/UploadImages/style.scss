@@ -1,0 +1,17 @@
+.calendar-wrapper {
+  .upload-wrapper-inner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .ant-upload-btn {
+    padding: 5px !important;
+    .anticon {
+      margin-left: 5px;
+      font-size: 20px;
+    }
+  }
+  .ant-upload-list {
+    margin-top: 10px;
+  }
+}

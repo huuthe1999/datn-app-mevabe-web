@@ -1,0 +1,6 @@
+.handbook-wrapper {
+  width: 900px !important;
+  > * + * {
+    margin-top: 30px;
+  }
+}

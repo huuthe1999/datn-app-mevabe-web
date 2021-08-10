@@ -1,0 +1,40 @@
+.app-layout-wrapper {
+  min-height: 100vh !important;
+  .ant-layout {
+    &-header {
+      position: sticky;
+      top: 0;
+      background-color: #fff;
+      // background: #d3cce3; /* fallback for old browsers */
+      // background: -webkit-linear-gradient(
+      //   to right,
+      //   #e9e4f0,
+      //   #d3cce3
+      // ); /* Chrome 10-25, Safari 5.1-6 */
+      // background: linear-gradient(
+      //   to right,
+      //   #e9e4f0,
+      //   #d3cce3
+      // ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+      z-index: 1000;
+      -webkit-box-shadow: 0 5px 5px -5px var(--primary-color);
+      -moz-box-shadow: 0 5px 5px -5px var(--primary-color);
+      box-shadow: 0 5px 5px -5px var(--primary-color);
+    }
+    &-content {
+      display: flex;
+      flex-direction: column;
+    }
+    &-has-sider {
+      max-width: 1000px;
+      justify-content: space-between;
+      margin: 0 auto;
+    }
+  }
+  @media only screen and (max-width: 600px) {
+    .ant-layout-header {
+      padding: 0 20px !important;
+    }
+  }
+}

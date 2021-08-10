@@ -1,0 +1,29 @@
+.chat-wrapper .sidebar-item-wrapper {
+  &.isActive {
+    border-right: 5px solid var(--primary-color);
+  }
+  &-inner {
+    display: flex;
+    align-items: center;
+    width: 300px;
+    padding: 5px;
+    .ant-avatar {
+      margin-right: 10px;
+    }
+    .name-wrapper {
+      display: flex;
+      align-items: center;
+      > * + * {
+        margin-left: 5px;
+      }
+    }
+    .last-mes {
+      max-width: 280px;
+    }
+
+    &:hover {
+      border-radius: 10px;
+      background-color: #e4e6eb;
+    }
+  }
+}

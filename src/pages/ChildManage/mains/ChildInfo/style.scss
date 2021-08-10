@@ -1,0 +1,29 @@
+@import "@/styles/common.scss";
+
+.child-manage-wrapper .child-info-wrapper {
+  .ant-form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 20px;
+    .ant-btn {
+      @include primary-rounded-button;
+      grid-column: span 2;
+      width: 200px;
+      margin: 0 auto;
+    }
+    .ant-picker {
+      width: 100%;
+    }
+    .ant-radio-group {
+      width: 100%;
+      display: grid;
+      text-align: center;
+      &.gender-radio {
+        grid-template-columns: repeat(3, auto);
+      }
+      &.is-born-radio {
+        grid-template-columns: repeat(2, auto);
+      }
+    }
+  }
+}

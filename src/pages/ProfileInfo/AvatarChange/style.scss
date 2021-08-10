@@ -1,0 +1,16 @@
+.profile-info-wrapper .avatar-change-wrapper {
+  display: flex;
+  justify-content: center;
+  &-inner {
+    position: relative;
+    .ant-btn {
+      position: absolute;
+      bottom: 5px;
+      right: 5px;
+      border-radius: 50%;
+    }
+    .ant-avatar {
+      filter: drop-shadow(-1px 1px 4px var(--primary-color));
+    }
+  }
+}

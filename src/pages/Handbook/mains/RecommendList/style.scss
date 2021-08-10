@@ -1,0 +1,51 @@
+.handbook-wrapper .recommend-list-wrapper {
+  margin-bottom: 20px;
+  h1 {
+    color: var(--primary-color);
+    margin-bottom: 10px;
+    font-size: 24px;
+    margin-left: 15px;
+  }
+
+  &-carousel {
+    .ant-card {
+      margin: 0 15px;
+      height: 100%;
+    }
+    .slick-arrow {
+      width: 40px;
+      height: 40px;
+      color: var(--primary-color);
+      z-index: 1;
+      border-radius: 50%;
+      display: flex !important;
+      justify-content: center;
+      align-items: center;
+      > svg {
+        height: 24px;
+        width: 24px;
+      }
+      &.slick-prev {
+        left: -40px;
+        transition: all 0.3s;
+        &:hover {
+          transform: scale(1.3);
+        }
+      }
+      &.slick-next {
+        right: -40px;
+        transition: all 0.3s;
+        &:hover {
+          transform: scale(1.3);
+        }
+      }
+    }
+  }
+
+  .loading-list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 30px;
+    row-gap: 30px;
+  }
+}

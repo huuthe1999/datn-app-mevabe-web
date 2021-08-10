@@ -1,0 +1,27 @@
+@import "@/styles/common.scss";
+
+.story-detail-wrapper {
+  &-inner {
+    display: grid;
+    grid-template-columns: 400px;
+    &.hasImage {
+      grid-template-columns: auto 400px;
+    }
+    column-gap: 20px;
+    height: 85vh;
+    .story-info {
+      display: flex;
+      flex-direction: column;
+      height: 85vh;
+      &-inner {
+        @include scrollbar-style;
+        padding-right: 5px;
+        display: grid;
+        row-gap: 10px;
+        grid-template-rows: min-content min-content min-content min-content auto;
+        height: 100%;
+        overflow-y: auto;
+      }
+    }
+  }
+}

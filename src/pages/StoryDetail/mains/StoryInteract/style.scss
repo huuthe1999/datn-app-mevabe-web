@@ -1,0 +1,23 @@
+.story-detail-wrapper .story-interact-wrapper {
+  padding: 5px 0;
+  // border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  &-inner {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 1px;
+    .ant-btn {
+      width: 100%;
+      font-size: 15px;
+      border-radius: 10px;
+      font-weight: 500;
+      .anticon {
+        font-size: 16px;
+      }
+      &:hover {
+        background-color: #7b6de3;
+        color: #fff;
+      }
+    }
+  }
+}

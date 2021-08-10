@@ -1,0 +1,24 @@
+.navbar-wrapper .user-avatar-wrapper {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  .ant-avatar {
+    border: 3px solid var(--primary-color);
+    // filter: drop-shadow(-1px 1px 4px var(--primary-color));
+    cursor: pointer;
+    > img {
+      border-radius: 50%;
+    }
+  }
+  .ant-btn {
+    font-weight: 600;
+    font-size: 14px;
+    direction: rtl;
+    > span {
+      margin-left: 0;
+      &.anticon {
+        margin-left: 8px;
+      }
+    }
+  }
+}

@@ -1,0 +1,12 @@
+@import "@/styles/common.scss";
+
+.login-wrapper .form-content-wrapper {
+  display: grid;
+  row-gap: 5px;
+  .ant-form-item {
+    margin-bottom: 0;
+    &-control {
+      @include input-with-message;
+    }
+  }
+}

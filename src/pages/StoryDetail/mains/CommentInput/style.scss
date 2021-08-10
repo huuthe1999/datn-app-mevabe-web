@@ -1,0 +1,21 @@
+@import "@/styles/common.scss";
+
+.story-detail-wrapper .comment-input-wrapper {
+  margin-top: 10px;
+  &-inner {
+    display: grid;
+    grid-template-columns: auto 1fr 24px 24px;
+    column-gap: 10px;
+    align-items: center;
+
+    textarea {
+      @include scrollbar-style;
+    }
+
+    .ant-btn {
+      .anticon {
+        color: var(--primary-color);
+      }
+    }
+  }
+}

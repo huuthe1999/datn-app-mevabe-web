@@ -1,0 +1,47 @@
+@mixin gradient-background {
+  background: linear-gradient(180deg, #6c5ce7 -13.56%, #281ac8 158.3%);
+}
+
+@mixin rounded-card($background: #fff, $radius: 50px) {
+  background: $background !important;
+  border-radius: $radius !important;
+}
+
+@mixin rounded-button($radius: 100px) {
+  border-radius: $radius;
+}
+
+@mixin primary-rounded-button($radius: 100px) {
+  @include gradient-background;
+  @include rounded-button($radius);
+}
+
+@mixin input-with-message {
+  display: grid;
+  grid-template-rows: auto 24px;
+}
+
+@mixin float-button($bottom: 30px, $left: 50px) {
+  position: fixed;
+  position: -webkit-sticky;
+  bottom: $bottom;
+  left: $left;
+}
+
+@mixin scrollbar-style {
+  &::-webkit-scrollbar {
+    height: 5px;
+    width: 5px;
+  }
+  &::-webkit-scrollbar-thumb {
+    background-color: rgba(190, 190, 190, 0.2);
+    border-radius: 999px;
+  }
+  &::-webkit-scrollbar-track {
+    background-color: #f2f2f2;
+    border-radius: 0;
+  }
+  &::-webkit-scrollbar-corner {
+    background-color: #f2f2f2;
+  }
+}

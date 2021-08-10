@@ -1,0 +1,11 @@
+.handbook-wrapper .blog-title-wrapper {
+  .ant-typography {
+    font-size: 20px;
+    line-height: 30px;
+    height: 60px;
+    margin-bottom: 0;
+    &:hover {
+      color: var(--primary-color);
+    }
+  }
+}

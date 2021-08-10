@@ -1,0 +1,19 @@
+@import "@/styles/common.scss";
+
+.forgot-password-wrapper {
+  @include rounded-card;
+  max-width: 450px !important;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 80%;
+  padding: 20px 40px;
+  > * + * {
+    margin-top: 24px;
+    width: 100%;
+  }
+}

@@ -1,0 +1,24 @@
+@import "@/styles/common.scss";
+
+.tracking-weight-wrapper .weight-notes-list-wrapper {
+  @include rounded-card(#fff, 15px);
+  padding: 20px;
+
+  .ant-list-items {
+    display: grid;
+    row-gap: 10px;
+    .ant-list-item {
+      background-color: #fafaff;
+      border-radius: 12px;
+      &-meta {
+        &-title {
+          margin-bottom: 5px;
+          font-size: 18px;
+        }
+        .text {
+          margin-top: 5px;
+        }
+      }
+    }
+  }
+}

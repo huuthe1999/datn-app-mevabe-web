@@ -1,0 +1,9 @@
+.stories-wrapper .post-interact-count-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  .like {
+    cursor: pointer;
+  }
+}

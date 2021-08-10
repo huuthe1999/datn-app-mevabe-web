@@ -1,0 +1,6 @@
+@import "@/styles/common.scss";
+
+.calendar-wrapper .activity-calendar-wrapper {
+  @include rounded-card(#fff, 15px);
+  padding: 10px;
+}

@@ -1,0 +1,21 @@
+@import "@/styles/common.scss";
+
+.activity-track-wrapper .activity-bar-menu-wrapper {
+  @include scrollbar-style;
+  overflow-y: auto;
+  .ant-menu-item {
+    height: 80px;
+    display: flex;
+    align-items: center;
+  }
+  .ant-menu {
+    border-right: 0;
+  }
+  .ant-menu-item {
+    > span {
+      opacity: 1;
+      transition: opacity 0.3s cubic-bezier(0.645, 0.045, 0.355, 1), margin 0.3s,
+        color 0.3s;
+    }
+  }
+}

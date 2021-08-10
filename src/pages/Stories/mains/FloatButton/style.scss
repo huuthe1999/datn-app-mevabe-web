@@ -1,0 +1,11 @@
+@import "@/styles/common.scss";
+
+.stories-wrapper .float-button-wrapper {
+  &.ant-btn {
+    @include float-button;
+    transform: scale(1.2);
+    background: #c4bdf7;
+    border-color: #c4bdf7;
+    height: 60px;
+  }
+}

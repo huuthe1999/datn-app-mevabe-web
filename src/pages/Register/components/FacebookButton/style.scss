@@ -1,0 +1,14 @@
+@import "@/styles/common.scss";
+
+.register-wrapper .facebook-button-wrapper {
+  .ant-btn {
+    @include rounded-button;
+    color: #fff;
+    background: linear-gradient(
+      0deg,
+      rgba(59, 89, 152, 0.896796218487395) 0%,
+      rgba(59, 89, 152, 1) 100%
+    );
+    border: none;
+  }
+}

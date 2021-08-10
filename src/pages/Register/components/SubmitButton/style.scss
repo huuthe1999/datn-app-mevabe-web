@@ -1,0 +1,8 @@
+@import "@/styles/common.scss";
+
+.register-wrapper .submit-button-wrapper {
+  grid-column: span 2;
+  .ant-btn {
+    @include primary-rounded-button;
+  }
+}

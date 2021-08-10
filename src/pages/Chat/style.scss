@@ -1,0 +1,11 @@
+.chat-wrapper {
+  max-width: 1000px !important;
+  flex-grow: 1;
+  display: flex;
+  > div {
+    align-self: stretch;
+    & + div {
+      margin-left: 20px;
+    }
+  }
+}

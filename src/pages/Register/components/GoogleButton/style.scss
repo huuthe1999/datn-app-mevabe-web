@@ -1,0 +1,7 @@
+@import "@/styles/common.scss";
+
+.register-wrapper .google-button-wrapper {
+  .ant-btn {
+    @include rounded-button;
+  }
+}

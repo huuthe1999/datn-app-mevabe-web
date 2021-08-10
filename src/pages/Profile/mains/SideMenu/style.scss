@@ -1,0 +1,11 @@
+@import "@/styles/common.scss";
+.profile-wrapper .side-menu-wrapper {
+  @include rounded-card(#fcfcfc, 10px);
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  top: 84px;
+  left: 20px;
+  height: calc(100vh - 104px);
+}

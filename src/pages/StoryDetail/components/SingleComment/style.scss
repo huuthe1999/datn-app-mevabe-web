@@ -1,0 +1,36 @@
+.story-detail-wrapper .single-comment-wrapper {
+  .ant-comment {
+    background-color: #f4f4f55c;
+    margin: 8px 0px;
+    border-radius: 20px;
+
+    &-inner {
+      padding: 8px;
+    }
+    &-actions {
+      margin-top: 0;
+      .ant-btn {
+        padding: 0;
+        margin-right: 8px;
+      }
+    }
+    &-avatar {
+      margin-right: 8px;
+    }
+    &-nested {
+      margin-left: 40px;
+    }
+    &-content {
+      &-author-name {
+        > * {
+          color: var(--primary-color);
+          font-size: 14px;
+        }
+      }
+    }
+  }
+  .ant-typography {
+    margin-bottom: 0;
+    word-break: break-word;
+  }
+}

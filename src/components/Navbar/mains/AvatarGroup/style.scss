@@ -1,0 +1,11 @@
+.navbar-wrapper .avatar-group-wrapper {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  > * + * {
+    margin-left: 10px;
+  }
+  .ant-btn {
+    border-radius: 50%;
+  }
+}

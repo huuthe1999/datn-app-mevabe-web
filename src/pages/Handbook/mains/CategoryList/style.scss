@@ -1,0 +1,7 @@
+.handbook-wrapper .category-list-wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  place-content: center;
+  justify-items: center;
+  column-gap: 30px;
+}

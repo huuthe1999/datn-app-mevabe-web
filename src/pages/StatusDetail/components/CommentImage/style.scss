@@ -1,0 +1,13 @@
+.status-detail-wrapper .comment-image-wrapper {
+  margin-top: 8px;
+  .ant-image {
+    margin-right: 4px;
+
+    img {
+      max-width: 275px;
+      width: auto;
+      height: auto;
+      max-height: 300px;
+    }
+  }
+}

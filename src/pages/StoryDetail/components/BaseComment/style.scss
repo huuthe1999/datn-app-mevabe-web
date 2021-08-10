@@ -1,0 +1,21 @@
+.story-detail-wrapper .base-comment-wrapper {
+  margin-bottom: 10px;
+  opacity: 0.75;
+  .ant-typography {
+    width: 350px;
+    margin-bottom: 0;
+  }
+  .name {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    line-height: 20px;
+    .ant-btn {
+      width: 20px;
+      height: 20px;
+      .anticon {
+        font-size: 20px;
+      }
+    }
+  }
+}

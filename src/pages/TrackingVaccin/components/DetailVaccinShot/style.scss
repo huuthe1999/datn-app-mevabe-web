@@ -1,0 +1,32 @@
+.tracking-vaccin-wrapper .detail-vaccin-shot-wrapper {
+  margin-left: 40px;
+  .header {
+    margin-bottom: 5px;
+  }
+  .ant-avatar {
+    // da tiem
+    &.status-1 {
+      background-color: rgba(111, 207, 151, 0.3);
+    }
+    // bo qua
+    &.status-2 {
+      background-color: rgba(242, 201, 76, 0.3);
+    }
+  }
+  .div {
+    // da tiem
+    &.status-1 {
+      color: rgba(111, 207, 151, 0.3);
+    }
+    // bo qua
+    &.status-2 {
+      color: rgba(242, 201, 76, 0.3);
+    }
+  }
+  .shot-wrapper {
+    display: inline-block;
+    margin-right: 20px;
+    text-align: center;
+    cursor: pointer;
+  }
+}

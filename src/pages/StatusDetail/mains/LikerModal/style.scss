@@ -1,0 +1,13 @@
+@import "@/styles/common.scss";
+
+.liker-modal-wrapper {
+  .liker-list {
+    max-height: 400px;
+    overflow-y: auto;
+    @include scrollbar-style;
+    padding-right: 5px;
+    .ant-list-item-meta {
+      align-items: center;
+    }
+  }
+}

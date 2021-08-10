@@ -1,0 +1,14 @@
+.tracking-milk-wrapper .detail-milk-data-wrapper {
+  display: flex;
+  align-items: center;
+  .right-content {
+    display: grid;
+    row-gap: 5px;
+  }
+  .ant-avatar {
+    margin-right: 10px;
+  }
+  .ant-tag {
+    font-size: 16px;
+  }
+}

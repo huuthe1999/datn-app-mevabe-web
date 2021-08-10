@@ -1,0 +1,41 @@
+.chat-wrapper .message-item-wrapper {
+  margin-bottom: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  &.isYou {
+    align-items: flex-end;
+  }
+  &-inner {
+    padding: 5px 10px;
+    min-height: 30px;
+    border-radius: 20px;
+    max-width: 60%;
+    background-color: #e4e6eb;
+    word-break: break-word;
+    white-space: pre-line;
+    &.isYou {
+      background-color: var(--primary-color);
+      color: #fff;
+    }
+  }
+  .media-wrapper {
+    max-width: 50%;
+    .ant-image {
+      width: fit-content;
+      display: block;
+      margin: 10px 0;
+    }
+    &.isYou {
+      .ant-image {
+        margin-left: auto;
+      }
+    }
+  }
+  .message-fail-wrapper {
+    margin-bottom: 5px;
+    &.isYou {
+      margin-left: auto;
+    }
+  }
+}

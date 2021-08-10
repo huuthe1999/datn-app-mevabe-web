@@ -1,0 +1,26 @@
+.profile-child-wrapper .child-item-wrapper {
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 10px;
+  display: flex;
+  padding: 20px 0;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  cursor: pointer;
+  .ant-avatar {
+    filter: drop-shadow(-1px 1px 4px var(--primary-color));
+  }
+  .name {
+    font-size: 16px;
+    font-weight: bold;
+  }
+  .avatar {
+    position: relative;
+    .gender {
+      position: absolute;
+      bottom: 0;
+      right: 0;
+    }
+  }
+}

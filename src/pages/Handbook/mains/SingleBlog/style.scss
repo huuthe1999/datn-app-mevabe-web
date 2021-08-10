@@ -1,0 +1,23 @@
+.handbook-wrapper .single-blog-wrapper {
+  .ant-ribbon {
+    height: 18px;
+    line-height: 18px;
+    font-size: 12px;
+    &-wrapper {
+      height: 100%;
+    }
+  }
+  &-inner {
+    > * + * {
+      margin-top: 10px;
+    }
+  }
+
+  .ant-card-cover {
+    img {
+      height: 200px;
+      width: 100%;
+      object-fit: cover;
+    }
+  }
+}

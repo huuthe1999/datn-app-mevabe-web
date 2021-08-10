@@ -1,0 +1,8 @@
+.detail-handbook-wrapper .blog-title-wrapper {
+  .ant-typography {
+    color: var(--primary-color);
+    @media only screen and (max-width: 600px) {
+      font-size: 20px;
+    }
+  }
+}

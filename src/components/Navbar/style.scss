@@ -1,0 +1,8 @@
+.navbar-wrapper {
+  display: grid;
+  grid-template-columns: 250px auto 250px;
+  align-items: center;
+  .ant-spin {
+    text-align: right;
+  }
+}

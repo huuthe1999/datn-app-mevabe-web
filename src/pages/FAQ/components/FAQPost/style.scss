@@ -1,0 +1,9 @@
+@import "@/styles/common.scss";
+
+.faq-wrapper .faq-post-wrapper {
+  @include rounded-card(#fcfcfc, 15px);
+  display: grid;
+  row-gap: 10px;
+  padding: 10px 20px;
+  margin: 20px 0;
+}

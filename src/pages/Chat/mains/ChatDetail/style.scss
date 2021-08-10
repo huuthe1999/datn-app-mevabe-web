@@ -1,0 +1,17 @@
+@import "@/styles/common.scss";
+.chat-wrapper .chat-detail-wrapper {
+  @include rounded-card(#fcfcfc, 10px);
+  width: 50vw;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  padding-top: 0;
+  .message-list {
+    @include scrollbar-style;
+    flex-grow: 1;
+    overflow-y: auto;
+    height: 100px;
+    padding: 10px;
+    align-items: flex-start;
+  }
+}

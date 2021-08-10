@@ -1,0 +1,7 @@
+.activity-track-wrapper {
+  display: flex;
+  justify-content: center;
+  > * + div {
+    width: 700px;
+  }
+}

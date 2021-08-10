@@ -1,0 +1,26 @@
+.handbook-wrapper .category-button-wrapper {
+  width: 100%;
+  &-inner {
+    position: relative;
+    border-radius: 30px;
+    background-size: cover;
+    height: 200px;
+    &.active {
+      border: 3px solid var(--primary-color);
+      filter: drop-shadow(-1px 1px 4px var(--primary-color));
+    }
+    .category-name {
+      position: absolute;
+      width: 100%;
+      padding: 5px;
+      font-size: 18px;
+      color: #fff;
+      text-align: center;
+      text-transform: capitalize;
+      font-weight: bold;
+      bottom: 5px;
+      left: 50%;
+      transform: translateX(-50%);
+    }
+  }
+}

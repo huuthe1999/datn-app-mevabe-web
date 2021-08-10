@@ -1,0 +1,13 @@
+.faq-wrapper .comment-input-wrapper {
+  display: flex;
+  align-items: center;
+  > * + * {
+    margin-left: 10px;
+  }
+  .ant-avatar {
+    filter: drop-shadow(-1px 1px 4px var(--primary-color));
+  }
+  .ant-input {
+    border-radius: 15px;
+  }
+}

@@ -1,0 +1,18 @@
+import CONSTANTS from "@/constants";
+import { request } from "@/restAPI";
+
+const {
+  FETCH_DETAIL_HANDBOOK_LOADING,
+  FETCH_DETAIL_HANDBOOK_SUCCESS,
+  FETCH_DETAIL_HANDBOOK_ERROR,
+} = CONSTANTS.ACTION_TYPES.DETAIL_HANDBOOK_ACTIONS;
+
+export const fetchDetailGuide = ({ data: { guideId }, cbSuccess }) =>
+  request({
+    url: CONSTANTS.ENDPOINTS.GUIDES.GUIDEID(guideId),
+    method: "GET",
+    LOADING_ACTION: FETCH_DETAIL_HANDBOOK_LOADING,
+    ERROR_ACTION: FETCH_DETAIL_HANDBOOK_ERROR,
+    SUCCESS_ACTION: FETCH_DETAIL_HANDBOOK_SUCCESS,
+    cbSuccess,
+  });
